@@ -1,0 +1,129 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Preço Ações</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/script.js"></script>      
+</head>
+<body style="background-image: url(img/fundo.jpg)">
+	
+  <div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "IBOVESPA",
+      "proName": "INDEX:IBOV"
+    },
+    {
+      "title": "S&P 500",
+      "proName": "OANDA:SPX500USD"
+    },
+    {
+      "description": "NASDAQ",
+      "proName": "NASDAQ:NDAQ"
+    },
+    {
+      "title": "AMAZON",
+      "proName": "NASDAQ:AMZN"
+    },
+    {
+      "title": "GOOGLE",
+      "proName": "NASDAQ:GOOG"
+    },
+    {
+      "title": "FACEBOOK",
+      "proName": "NASDAQ:FB"
+    },
+    {
+      "description": "PETROCHINA",
+      "proName": "SSE:601857"
+    },
+    {
+      "description": "TOYOTA",
+      "proName": "OTC:TOYOF"
+    },
+    {
+      "description": "WALMART",
+      "proName": "NYSE:WMT"
+    },
+    {
+      "description": "BAYER",
+      "proName": "XETR:BAYN"
+    },
+    {
+      "description": "JOHNSON & JOHNSON",
+      "proName": "NYSE:JNJ"
+    },
+    {
+      "description": "COCA-COLA",
+      "proName": "NYSE:KO"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "br"
+}
+  </script>
+</div>
+
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "title": "USD/BRL",
+      "proName": "FX_IDC:USDBRL"
+    },
+    {
+      "title": "EUR/BRL",
+      "proName": "FX_IDC:EURBRL"
+    },
+    {
+      "title": "BTC/BRL",
+      "proName": "MERCADO:BTCBRL"
+    },
+    {
+      "title": "EUR/USD",
+      "proName": "FX_IDC:EURUSD"
+    },
+    {
+      "title": "BTC/USD",
+      "proName": "BITSTAMP:BTCUSD"
+    },
+    {
+      "title": "ETH/USD",
+      "proName": "BITSTAMP:ETHUSD"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "br"
+}
+  </script>
+</div>
+<footer>
+          <input class="btn" type="type" name="nome" id="nomeSimbolo" placeholder="Simbolo de uma Empresa">
+          <a href="#"><button class="btn inverse"type="submit" id="botao" onclick="consulta()" >Buscar</button></a>
+          <br><br><br>
+          
+<div  id="retorno" style="width: 25rem;">
+  
+    <div id="resposta" style="background-image:url('img/back.jpg');">
+           
+      </div>
+      
+</div>
+ 
+
+
+</footer></center>
+
+</body>
+</html>
