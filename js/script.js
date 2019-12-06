@@ -48,7 +48,7 @@
               //criando elemento 'p' para armazenar a informação 
               var aa = document.createElement("p");
               //inserindo informação na tag 'p'
-              aa.innerHTML = '<img src="https://github.com/JoaoVM4/JoaoVM4.github.io/blob/master/img/'+symb+'.jpg" alt="Logo da Empresa">';
+              aa.innerHTML = '<img src="img/'+symb+'.jpg" alt="Logo da Empresa">';
               //adicionando a divisao 'para' no corpo do documento html
               document.body.appendChild(para);
               //adicionando a tag 'p' na divisão 'para'
